@@ -1,3 +1,6 @@
+#Problem Set 3 Problem 2
+#Author: Siddhant Gokhale
+
 def getGuessedWord(secretWord, lettersGuessed):
     '''
     secretWord: string, the word the user is guessing
@@ -16,4 +19,4 @@ def getGuessedWord(secretWord, lettersGuessed):
             ans=ans+secretWord[i]
         else:
             ans=ans+" _ "
-    return ans    
+    return ans  

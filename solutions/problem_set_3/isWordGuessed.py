@@ -1,3 +1,6 @@
+#Problem Set 3 Problem 1
+#Author: Siddhant Gokhale
+
 
 def isWordGuessed(secretWord, lettersGuessed):
     '''
@@ -6,7 +9,6 @@ def isWordGuessed(secretWord, lettersGuessed):
     returns: boolean, True if all the letters of secretWord are in lettersGuessed;
       False otherwise
     '''
-
     is_secretletter_in_letters_guessed=[0]*len(secretWord)
     for i in range(0,len(secretWord)):
         for j in range(0,len(lettersGuessed)):
@@ -17,4 +19,3 @@ def isWordGuessed(secretWord, lettersGuessed):
         return True
     else:
         return False
-

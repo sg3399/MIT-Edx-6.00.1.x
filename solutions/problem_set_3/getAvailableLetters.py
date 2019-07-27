@@ -1,10 +1,12 @@
+#Problem Set 3 Problem 3
+#Author: Siddhant Gokhale
+
 def getAvailableLetters(lettersGuessed):
     '''
     lettersGuessed: list, what letters have been guessed so far
     returns: string, comprised of letters that represents what letters have not
       yet been guessed.
     '''
-    
     import string
     lowercaseletters=str(string.ascii_lowercase)
     letterslist= [""]*len(lowercaseletters)

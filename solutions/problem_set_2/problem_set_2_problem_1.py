@@ -1,3 +1,7 @@
+#Problem Set 2 Problem 1
+#Author:Siddhant Gokhale
+
+
 #balance
 balance=int(input('Please enter the credit card balance:'))
 

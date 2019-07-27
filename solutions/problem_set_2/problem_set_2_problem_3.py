@@ -1,3 +1,6 @@
+#Problem Set 2 Problem 3
+#Author:Siddhant Gokhale
+
 #balance
 balance=int(input('Please enter the credit card balance:'))
 
@@ -9,6 +12,8 @@ monthlyInterestRate=annualInterestRate/12
 lowerbound=b0/12
 upperbound= b0*((1+monthlyInterestRate)**12)/12
 payment_guess=(lowerbound+upperbound)/2
+
+#using bisection method
 while abs(balance)>0.01:
     for month in range(12):    
         monthlyunpaidbalance= balance-payment_guess
